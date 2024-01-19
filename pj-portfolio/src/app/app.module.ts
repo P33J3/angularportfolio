@@ -8,26 +8,28 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ProjectCardComponent } from './projectcard/projectcard.component';
-import { MatExpansionModule } from '@angular/material/expansion';
 import { NavbarComponent } from './navbar/navbar.component'; // Import the MatExpansionModule
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProjectPage1Component } from './project-page1/project-page1.component';
+import { ProjectPage2Component } from './project-page2/project-page2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroductionComponent,
     ProjectsComponent,
+    ProjectCardComponent,
     ExperienceComponent,
     FooterComponent,
     ProjectCardComponent,
     NavbarComponent,
-
+    ProjectPage1Component,
+    ProjectPage2Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatExpansionModule, 
-    MatToolbarModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

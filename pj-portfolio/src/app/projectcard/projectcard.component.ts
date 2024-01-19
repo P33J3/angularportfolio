@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 interface Project {
+  image: string;
   title: string;
   description: string;
   link: string;
@@ -13,7 +14,7 @@ interface Project {
 })
 export class ProjectCardComponent {
 
-  @Input() project: Project = { title: '', description: '', link: '' }; // Default values;
+  @Input() project: Project = { image: '', title: '', description: '', link: '' }; // Default values;
 
   constructor() { }
 }

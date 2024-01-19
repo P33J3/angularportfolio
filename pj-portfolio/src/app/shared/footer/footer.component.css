@@ -1,6 +1,6 @@
 /* Footer container */
 .footer {
-    background-color: #f5f5f5;
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
     padding: 20px;
     text-align: center;
   }
@@ -10,12 +10,15 @@
     color: #007bff;
     text-decoration: none;
     margin-right: 15px;
+    font-size: 24px;
   }
   
   /* Footer email */
   .footer span {
     font-style: italic;
     margin-left: 15px;
+    color: #fff;
+    font-size: 24px;
   }
 
   

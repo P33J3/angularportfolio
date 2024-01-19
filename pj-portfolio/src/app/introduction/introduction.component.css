@@ -1,6 +1,6 @@
 /* Introduction container */
 .intro-container {
-    background-image: url('../../assets/images/markus-spiske-Skf7HxARcoc-unsplash.jpg');
+    /* background-image: url('../../assets/images/markus-spiske-Skf7HxARcoc-unsplash.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,11 +10,7 @@
     justify-content: center;
     text-align: center;
   }
-  
-  /* Background image opacity adjustment */
-  .intro-container .background-image {
-    opacity: 0.7; /* Adjust as needed */
-  }
+
   
   /* Introduction content */
   .intro-container .content {
@@ -24,9 +20,14 @@
   
   /* Introduction heading */
   .intro-container h1 {
-    font-size: 3rem;
+    font-size: 56px;
     font-weight: bold;
   }
+
+    /* Introduction heading */
+    .intro-container p {
+      font-size: 36px;
+    }
   
   /* Introduction button */
   .intro-container button {

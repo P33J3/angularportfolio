@@ -1,35 +1,16 @@
 /* Project card container */
-.projects-container .project-card {
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Project card title */
-  .project-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  /* Project card description */
-  .project-card p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  /* Project card link */
-  .project-card a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Card hover effect */
-  .project-card:hover {
-    background-color: #e5e5e5;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-  }
+.projects-container .card-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects-container h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f5f5f5;
+}
 
   @media (max-width: 768px) {
     .projects-container .project-card {

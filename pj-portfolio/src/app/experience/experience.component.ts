@@ -14,9 +14,15 @@ interface Experience {
 export class ExperienceComponent implements OnInit {
 
   experiences: Experience[] = [
-    { title: 'Job Title 1', years: '2020-2023', description: '...' },
-    { title: 'Job Title 2', years: '2018-2020', description: '...' },
-    // ... your other experiences
+    { 
+      title: 'Junior Web Developer', 
+      years: '2022-Present', 
+      description: "Assist with creating front-end Angular Components which facilitates business "+
+        "processes."},
+    { 
+      title: 'Multimedia Technologist', 
+      years: '2014-2022', 
+      description: 'Produce, record and edit university events, classes and creative assignments' },
   ];
 
   constructor() { }
