@@ -1,1 +1,22 @@
-<p>project-page1 works!</p>
+<div class="project-page">
+    <h1>{{ projectData.projectTitle }}</h1>
+  
+    <div class="project-description">
+      <p>{{ projectData.projectDescription }}</p>
+    </div>
+    
+    <h3>Technologies Used</h3>
+    <ul class="technologies">
+        <li *ngFor="let tech of projectData.technologies">
+          {{ tech }}
+        </li>
+      </ul>
+  
+    <div class="screenshots">
+      <img *ngFor="let screenshot of projectData.screenshots; let i = index" 
+           [src]="screenshot.url" 
+           alt="Project Screenshot {{ i + 1 }}" 
+           class="screenshot-image">
+    </div>
+  </div>
+  

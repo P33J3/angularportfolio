@@ -17,7 +17,7 @@ export class ExperienceComponent implements OnInit {
     { 
       title: 'Junior Web Developer', 
       years: '2022-Present', 
-      description: "Assist with creating front-end Angular Components which facilitates business "+
+      description: "Assist with creating front-end Angular Components which facilitates business. "+
         "processes."},
     { 
       title: 'Multimedia Technologist', 

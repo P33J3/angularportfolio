@@ -1,6 +1,6 @@
 .nav-tabs {
     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
-    color: black; /* Text color */
+    color: white; /* Text color */
     padding: 10px 20px;
     display: flex;
     justify-content: end; /* Align links evenly */
@@ -11,7 +11,7 @@
     color: inherit; /* Inherit text color from navbar */
     text-decoration: none;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     transition: color 0.2s ease-in-out;
   }

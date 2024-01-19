@@ -18,14 +18,14 @@ export class ProjectsComponent implements OnInit {
     { 
       image: '../../assets/images/pexels-thisisengineering-3862365.jpg',
       title: 'Risk Registers Analytics ', 
-      description: 'An app that processess a custom risk register template'+
+      description: 'An app that processess a custom risk register template '+
       'that allows for users to analyze trends in the registers.', 
-      link: '...' },
+      link: '/project-page1' },
       { 
         image: '../../assets/images/kira-auf-der-heide-_Zd6COnH5E8-unsplash.jpg',
         title: 'Physiotherapy Client Management ', 
         description: 'An app that stores client information; customized for physiotherapists',
-         link: '...' }
+         link: '/project-page2' }
   ];
 
   constructor() { }

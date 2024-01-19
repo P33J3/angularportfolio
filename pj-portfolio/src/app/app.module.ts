@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component'; // Import the MatEx
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectPage1Component } from './project-page1/project-page1.component';
 import { ProjectPage2Component } from './project-page2/project-page2.component';
+import { MainComponentComponent } from './main-component/main-component.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProjectPage2Component } from './project-page2/project-page2.component';
     NavbarComponent,
     ProjectPage1Component,
     ProjectPage2Component,
+    MainComponentComponent,
   ],
   imports: [
     BrowserModule,
